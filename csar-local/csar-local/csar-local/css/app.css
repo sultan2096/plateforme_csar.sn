@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Styles personnalisés pour CSAR avec palette professionnelle */
+
+/* Boutons principaux */
+.btn-primary {
+    background-color: #198754;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background-color: #198754;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.btn-secondary {
+    background-color: #198754;
+    color: #198754;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #198754;
+}
+
+.btn-secondary:hover {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+.btn-danger {
+    background-color: #198754;
+    color: white;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-danger:hover {
+    background-color: #198754;
+    transform: translateY(-1px);
+}
+
+/* Bouton de navigation */
+.btn-nav {
+    background-color: #198754;
+    color: white;
+    font-weight: 600;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid #198754;
+}
+
+.btn-nav:hover {
+    background-color: #198754;
+    border-color: #198754;
+}
+
+/* Cartes */
+.card {
+    background-color: white;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border: 1px solid #198754;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+    transform: translateY(-2px);
+}
+
+/* Champs de formulaire */
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: 2px solid #198754;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease-in-out;
+    background-color: white;
+}
+
+.form-input:focus {
+    border-color: #198754;
+    box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.1);
+    outline: none;
+    transform: scale(1.01);
+}
+
+.form-input:hover {
+    border-color: #198754;
+}
+
+/* Labels de formulaire */
+.form-label {
+    display: block;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #198754;
+    margin-bottom: 0.5rem;
+}
+
+/* Badges de statut */
+.status-badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.status-pending {
+    background-color: #198754;
+    color: #198754;
+    border: 1px solid #198754;
+}
+
+.status-approved {
+    background-color: #198754;
+    color: #198754;
+    border: 1px solid #198754;
+}
+
+.status-rejected {
+    background-color: #198754;
+    color: #198754;
+    border: 1px solid #198754;
+}
+
+.status-completed {
+    background-color: #198754;
+    color: #198754;
+    border: 1px solid #198754;
+}
+
+/* Classes utilitaires CSAR */
+.csar-green {
+    color: #198754;
+}
+
+.csar-green-bg {
+    background-color: #198754;
+}
+
+.csar-green-border {
+    border-color: #198754;
+}
+
+.csar-blue {
+    color: #198754;
+}
+
+.csar-blue-bg {
+    background-color: #198754;
+}
+
+.csar-blue-border {
+    border-color: #198754;
+}
+
+/* Navigation latérale */
+.sidebar {
+    background: linear-gradient(180deg, #198754 0%, #198754 100%);
+    border-right: 1px solid #198754;
+}
+
+.sidebar-item {
+    color: #198754;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0.5rem;
+    margin: 0.25rem 0;
+}
+
+.sidebar-item:hover {
+    background-color: #198754;
+    color: white;
+    transform: translateX(4px);
+}
+
+.sidebar-item.active {
+    background-color: #198754;
+    color: white;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* En-têtes de section */
+.section-header {
+    background: linear-gradient(135deg, #198754 0%, #198754 100%);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Typographie */
+body {
+    font-family: 'Inter', system-ui, sans-serif;
+    color: #198754;
+    background-color: #198754;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #198754;
+    font-weight: 700;
+}
+
+/* Animations et transitions */
+.transition-all {
+    transition: all 0.2s ease-in-out;
+}
+
+.hover-lift:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .card {
+        border-radius: 0.5rem;
+        margin: 0.5rem;
+    }
+    
+    .btn-primary, .btn-secondary, .btn-danger {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+}

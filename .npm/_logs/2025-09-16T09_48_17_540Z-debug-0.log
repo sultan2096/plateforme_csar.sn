@@ -1,0 +1,462 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.2
+2 info using node@v20.19.5
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/var/www/csar-platform/.npmrc
+5 silly config load:file:/root/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm install
+8 verbose argv "install"
+9 verbose logfile logs-max:10 dir:/root/.npm/_logs/2025-09-16T09_48_17_540Z-
+10 verbose logfile /root/.npm/_logs/2025-09-16T09_48_17_540Z-debug-0.log
+11 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+12 silly logfile start cleaning logs, removing 1 files
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify moves {}
+16 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-wasm32-wasi
+17 silly reify mark deleted [
+17 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-wasm32-wasi'
+17 silly reify ]
+18 silly audit bulk request {
+18 silly audit   '@ampproject/remapping': [ '2.3.0' ],
+18 silly audit   '@esbuild/aix-ppc64': [ '0.25.8' ],
+18 silly audit   '@esbuild/android-arm': [ '0.25.8' ],
+18 silly audit   '@esbuild/android-arm64': [ '0.25.8' ],
+18 silly audit   '@esbuild/android-x64': [ '0.25.8' ],
+18 silly audit   '@esbuild/darwin-arm64': [ '0.25.8' ],
+18 silly audit   '@esbuild/darwin-x64': [ '0.25.8' ],
+18 silly audit   '@esbuild/freebsd-arm64': [ '0.25.8' ],
+18 silly audit   '@esbuild/freebsd-x64': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-arm': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-arm64': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-ia32': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-loong64': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-mips64el': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-ppc64': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-riscv64': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-s390x': [ '0.25.8' ],
+18 silly audit   '@esbuild/linux-x64': [ '0.25.8' ],
+18 silly audit   '@esbuild/netbsd-arm64': [ '0.25.8' ],
+18 silly audit   '@esbuild/netbsd-x64': [ '0.25.8' ],
+18 silly audit   '@esbuild/openbsd-arm64': [ '0.25.8' ],
+18 silly audit   '@esbuild/openbsd-x64': [ '0.25.8' ],
+18 silly audit   '@esbuild/openharmony-arm64': [ '0.25.8' ],
+18 silly audit   '@esbuild/sunos-x64': [ '0.25.8' ],
+18 silly audit   '@esbuild/win32-arm64': [ '0.25.8' ],
+18 silly audit   '@esbuild/win32-ia32': [ '0.25.8' ],
+18 silly audit   '@esbuild/win32-x64': [ '0.25.8' ],
+18 silly audit   '@isaacs/fs-minipass': [ '4.0.1' ],
+18 silly audit   '@jridgewell/gen-mapping': [ '0.3.12' ],
+18 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+18 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.4' ],
+18 silly audit   '@jridgewell/trace-mapping': [ '0.3.29' ],
+18 silly audit   '@rollup/rollup-android-arm-eabi': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-android-arm64': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-darwin-arm64': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-darwin-x64': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-freebsd-arm64': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-freebsd-x64': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-arm-gnueabihf': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-arm-musleabihf': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-arm64-gnu': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-arm64-musl': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-loongarch64-gnu': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-powerpc64le-gnu': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-riscv64-gnu': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-riscv64-musl': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-s390x-gnu': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-x64-gnu': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-linux-x64-musl': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-win32-arm64-msvc': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-win32-ia32-msvc': [ '4.45.1' ],
+18 silly audit   '@rollup/rollup-win32-x64-msvc': [ '4.45.1' ],
+18 silly audit   '@tailwindcss/node': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-android-arm64': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-darwin-arm64': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-darwin-x64': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-freebsd-x64': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-linux-arm-gnueabihf': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-linux-arm64-gnu': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-linux-arm64-musl': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-linux-x64-gnu': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-linux-x64-musl': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-win32-arm64-msvc': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/oxide-win32-x64-msvc': [ '4.1.11' ],
+18 silly audit   '@tailwindcss/vite': [ '4.1.11' ],
+18 silly audit   '@types/estree': [ '1.0.8' ],
+18 silly audit   'ansi-regex': [ '5.0.1' ],
+18 silly audit   'ansi-styles': [ '4.3.0' ],
+18 silly audit   asynckit: [ '0.4.0' ],
+18 silly audit   autoprefixer: [ '10.4.21' ],
+18 silly audit   axios: [ '1.11.0' ],
+18 silly audit   browserslist: [ '4.25.1' ],
+18 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+18 silly audit   'caniuse-lite': [ '1.0.30001727' ],
+18 silly audit   chalk: [ '4.1.2' ],
+18 silly audit   'supports-color': [ '7.2.0', '8.1.1' ],
+18 silly audit   chownr: [ '3.0.0' ],
+18 silly audit   cliui: [ '8.0.1' ],
+18 silly audit   'color-convert': [ '2.0.1' ],
+18 silly audit   'color-name': [ '1.1.4' ],
+18 silly audit   'combined-stream': [ '1.0.8' ],
+18 silly audit   concurrently: [ '9.2.0' ],
+18 silly audit   'delayed-stream': [ '1.0.0' ],
+18 silly audit   'detect-libc': [ '2.0.4' ],
+18 silly audit   'dunder-proto': [ '1.0.1' ],
+18 silly audit   'electron-to-chromium': [ '1.5.190' ],
+18 silly audit   'emoji-regex': [ '8.0.0' ],
+18 silly audit   'enhanced-resolve': [ '5.18.2' ],
+18 silly audit   'es-define-property': [ '1.0.1' ],
+18 silly audit   'es-errors': [ '1.3.0' ],
+18 silly audit   'es-object-atoms': [ '1.1.1' ],
+18 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+18 silly audit   esbuild: [ '0.25.8' ],
+18 silly audit   escalade: [ '3.2.0' ],
+18 silly audit   fdir: [ '6.4.6' ],
+18 silly audit   'follow-redirects': [ '1.15.9' ],
+18 silly audit   'form-data': [ '4.0.4' ],
+18 silly audit   'fraction.js': [ '4.3.7' ],
+18 silly audit   fsevents: [ '2.3.3' ],
+18 silly audit   'function-bind': [ '1.1.2' ],
+18 silly audit   'get-caller-file': [ '2.0.5' ],
+18 silly audit   'get-intrinsic': [ '1.3.0' ],
+18 silly audit   'get-proto': [ '1.0.1' ],
+18 silly audit   gopd: [ '1.2.0' ],
+18 silly audit   'graceful-fs': [ '4.2.11' ],
+18 silly audit   'has-flag': [ '4.0.0' ],
+18 silly audit   'has-symbols': [ '1.1.0' ],
+18 silly audit   'has-tostringtag': [ '1.0.2' ],
+18 silly audit   hasown: [ '2.0.2' ],
+18 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+18 silly audit   jiti: [ '2.5.1' ],
+18 silly audit   'laravel-vite-plugin': [ '2.0.0' ],
+18 silly audit   lightningcss: [ '1.30.1' ],
+18 silly audit   'lightningcss-darwin-arm64': [ '1.30.1' ],
+18 silly audit   'lightningcss-darwin-x64': [ '1.30.1' ],
+18 silly audit   'lightningcss-freebsd-x64': [ '1.30.1' ],
+18 silly audit   'lightningcss-linux-arm-gnueabihf': [ '1.30.1' ],
+18 silly audit   'lightningcss-linux-arm64-gnu': [ '1.30.1' ],
+18 silly audit   'lightningcss-linux-arm64-musl': [ '1.30.1' ],
+18 silly audit   'lightningcss-linux-x64-gnu': [ '1.30.1' ],
+18 silly audit   'lightningcss-linux-x64-musl': [ '1.30.1' ],
+18 silly audit   'lightningcss-win32-arm64-msvc': [ '1.30.1' ],
+18 silly audit   'lightningcss-win32-x64-msvc': [ '1.30.1' ],
+18 silly audit   lodash: [ '4.17.21' ],
+18 silly audit   'magic-string': [ '0.30.17' ],
+18 silly audit   'math-intrinsics': [ '1.1.0' ],
+18 silly audit   'mime-db': [ '1.52.0' ],
+18 silly audit   'mime-types': [ '2.1.35' ],
+18 silly audit   minipass: [ '7.1.2' ],
+18 silly audit   minizlib: [ '3.0.2' ],
+18 silly audit   mkdirp: [ '3.0.1' ],
+18 silly audit   nanoid: [ '3.3.11' ],
+18 silly audit   'node-releases': [ '2.0.19' ],
+18 silly audit   'normalize-range': [ '0.1.2' ],
+18 silly audit   picocolors: [ '1.1.1' ],
+18 silly audit   picomatch: [ '4.0.3', '2.3.1' ],
+18 silly audit   postcss: [ '8.5.6' ],
+18 silly audit   'postcss-value-parser': [ '4.2.0' ],
+18 silly audit   'proxy-from-env': [ '1.1.0' ],
+18 silly audit   'require-directory': [ '2.1.1' ],
+18 silly audit   rollup: [ '4.45.1' ],
+18 silly audit   rxjs: [ '7.8.2' ],
+18 silly audit   'shell-quote': [ '1.8.3' ],
+18 silly audit   'source-map-js': [ '1.2.1' ],
+18 silly audit   'string-width': [ '4.2.3' ],
+18 silly audit   'strip-ansi': [ '6.0.1' ],
+18 silly audit   tailwindcss: [ '4.1.11' ],
+18 silly audit   tapable: [ '2.2.2' ],
+18 silly audit   tar: [ '7.4.3' ],
+18 silly audit   tinyglobby: [ '0.2.14' ],
+18 silly audit   'tree-kill': [ '1.2.2' ],
+18 silly audit   tslib: [ '2.8.1' ],
+18 silly audit   'update-browserslist-db': [ '1.1.3' ],
+18 silly audit   vite: [ '7.0.6' ],
+18 silly audit   'vite-plugin-full-reload': [ '1.2.0' ],
+18 silly audit   'wrap-ansi': [ '7.0.0' ],
+18 silly audit   y18n: [ '5.0.8' ],
+18 silly audit   yallist: [ '5.0.0' ],
+18 silly audit   yargs: [ '17.7.2' ],
+18 silly audit   'yargs-parser': [ '21.1.1' ],
+18 silly audit   '@tailwindcss/oxide-wasm32-wasi': [ '4.1.11' ]
+18 silly audit }
+19 verbose reify failed optional dependency /var/www/csar-platform/node_modules/lightningcss-win32-x64-msvc
+20 silly reify mark deleted [ '/var/www/csar-platform/node_modules/lightningcss-win32-x64-msvc' ]
+21 verbose reify failed optional dependency /var/www/csar-platform/node_modules/lightningcss-win32-arm64-msvc
+22 silly reify mark deleted [ '/var/www/csar-platform/node_modules/lightningcss-win32-arm64-msvc' ]
+23 verbose reify failed optional dependency /var/www/csar-platform/node_modules/lightningcss-linux-arm64-musl
+24 silly reify mark deleted [ '/var/www/csar-platform/node_modules/lightningcss-linux-arm64-musl' ]
+25 verbose reify failed optional dependency /var/www/csar-platform/node_modules/lightningcss-linux-arm64-gnu
+26 silly reify mark deleted [ '/var/www/csar-platform/node_modules/lightningcss-linux-arm64-gnu' ]
+27 verbose reify failed optional dependency /var/www/csar-platform/node_modules/lightningcss-linux-arm-gnueabihf
+28 silly reify mark deleted [
+28 silly reify   '/var/www/csar-platform/node_modules/lightningcss-linux-arm-gnueabihf'
+28 silly reify ]
+29 verbose reify failed optional dependency /var/www/csar-platform/node_modules/lightningcss-freebsd-x64
+30 silly reify mark deleted [ '/var/www/csar-platform/node_modules/lightningcss-freebsd-x64' ]
+31 verbose reify failed optional dependency /var/www/csar-platform/node_modules/lightningcss-darwin-x64
+32 silly reify mark deleted [ '/var/www/csar-platform/node_modules/lightningcss-darwin-x64' ]
+33 verbose reify failed optional dependency /var/www/csar-platform/node_modules/lightningcss-darwin-arm64
+34 silly reify mark deleted [ '/var/www/csar-platform/node_modules/lightningcss-darwin-arm64' ]
+35 verbose reify failed optional dependency /var/www/csar-platform/node_modules/fsevents
+36 silly reify mark deleted [ '/var/www/csar-platform/node_modules/fsevents' ]
+37 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-win32-x64-msvc
+38 silly reify mark deleted [
+38 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-win32-x64-msvc'
+38 silly reify ]
+39 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-win32-arm64-msvc
+40 silly reify mark deleted [
+40 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-win32-arm64-msvc'
+40 silly reify ]
+41 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-linux-arm64-musl
+42 silly reify mark deleted [
+42 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-linux-arm64-musl'
+42 silly reify ]
+43 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-linux-arm64-gnu
+44 silly reify mark deleted [
+44 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-linux-arm64-gnu'
+44 silly reify ]
+45 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf
+46 silly reify mark deleted [
+46 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-linux-arm-gnueabihf'
+46 silly reify ]
+47 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-freebsd-x64
+48 silly reify mark deleted [
+48 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-freebsd-x64'
+48 silly reify ]
+49 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-darwin-x64
+50 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@tailwindcss/oxide-darwin-x64' ]
+51 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-darwin-arm64
+52 silly reify mark deleted [
+52 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-darwin-arm64'
+52 silly reify ]
+53 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@tailwindcss/oxide-android-arm64
+54 silly reify mark deleted [
+54 silly reify   '/var/www/csar-platform/node_modules/@tailwindcss/oxide-android-arm64'
+54 silly reify ]
+55 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-win32-x64-msvc
+56 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@rollup/rollup-win32-x64-msvc' ]
+57 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-win32-ia32-msvc
+58 silly reify mark deleted [
+58 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-win32-ia32-msvc'
+58 silly reify ]
+59 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-win32-arm64-msvc
+60 silly reify mark deleted [
+60 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-win32-arm64-msvc'
+60 silly reify ]
+61 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-s390x-gnu
+62 silly reify mark deleted [
+62 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-s390x-gnu'
+62 silly reify ]
+63 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-riscv64-musl
+64 silly reify mark deleted [
+64 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-riscv64-musl'
+64 silly reify ]
+65 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-riscv64-gnu
+66 silly reify mark deleted [
+66 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-riscv64-gnu'
+66 silly reify ]
+67 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-powerpc64le-gnu
+68 silly reify mark deleted [
+68 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-powerpc64le-gnu'
+68 silly reify ]
+69 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-loongarch64-gnu
+70 silly reify mark deleted [
+70 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-loongarch64-gnu'
+70 silly reify ]
+71 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-arm64-musl
+72 silly reify mark deleted [
+72 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-arm64-musl'
+72 silly reify ]
+73 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-arm64-gnu
+74 silly reify mark deleted [
+74 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-arm64-gnu'
+74 silly reify ]
+75 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-arm-musleabihf
+76 silly reify mark deleted [
+76 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-arm-musleabihf'
+76 silly reify ]
+77 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-linux-arm-gnueabihf
+78 silly reify mark deleted [
+78 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-linux-arm-gnueabihf'
+78 silly reify ]
+79 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-freebsd-x64
+80 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@rollup/rollup-freebsd-x64' ]
+81 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-freebsd-arm64
+82 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@rollup/rollup-freebsd-arm64' ]
+83 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-darwin-x64
+84 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@rollup/rollup-darwin-x64' ]
+85 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-darwin-arm64
+86 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@rollup/rollup-darwin-arm64' ]
+87 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-android-arm64
+88 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@rollup/rollup-android-arm64' ]
+89 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@rollup/rollup-android-arm-eabi
+90 silly reify mark deleted [
+90 silly reify   '/var/www/csar-platform/node_modules/@rollup/rollup-android-arm-eabi'
+90 silly reify ]
+91 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/win32-x64
+92 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/win32-x64' ]
+93 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/win32-ia32
+94 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/win32-ia32' ]
+95 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/win32-arm64
+96 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/win32-arm64' ]
+97 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/sunos-x64
+98 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/sunos-x64' ]
+99 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/openharmony-arm64
+100 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/openharmony-arm64' ]
+101 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/openbsd-x64
+102 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/openbsd-x64' ]
+103 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/openbsd-arm64
+104 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/openbsd-arm64' ]
+105 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/netbsd-x64
+106 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/netbsd-x64' ]
+107 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/netbsd-arm64
+108 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/netbsd-arm64' ]
+109 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/linux-s390x
+110 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/linux-s390x' ]
+111 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/linux-riscv64
+112 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/linux-riscv64' ]
+113 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/linux-ppc64
+114 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/linux-ppc64' ]
+115 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/linux-mips64el
+116 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/linux-mips64el' ]
+117 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/linux-loong64
+118 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/linux-loong64' ]
+119 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/linux-ia32
+120 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/linux-ia32' ]
+121 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/linux-arm64
+122 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/linux-arm64' ]
+123 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/linux-arm
+124 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/linux-arm' ]
+125 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/freebsd-x64
+126 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/freebsd-x64' ]
+127 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/freebsd-arm64
+128 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/freebsd-arm64' ]
+129 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/darwin-x64
+130 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/darwin-x64' ]
+131 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/darwin-arm64
+132 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/darwin-arm64' ]
+133 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/android-x64
+134 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/android-x64' ]
+135 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/android-arm64
+136 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/android-arm64' ]
+137 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/android-arm
+138 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/android-arm' ]
+139 verbose reify failed optional dependency /var/www/csar-platform/node_modules/@esbuild/aix-ppc64
+140 silly reify mark deleted [ '/var/www/csar-platform/node_modules/@esbuild/aix-ppc64' ]
+141 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 299ms
+142 silly audit report {
+142 silly audit report   axios: [
+142 silly audit report     {
+142 silly audit report       id: 1107599,
+142 silly audit report       url: 'https://github.com/advisories/GHSA-4hjh-wcwx-xvwj',
+142 silly audit report       title: 'Axios is vulnerable to DoS attack through lack of data size check',
+142 silly audit report       severity: 'high',
+142 silly audit report       vulnerable_versions: '<1.12.0',
+142 silly audit report       cwe: [Array],
+142 silly audit report       cvss: [Object]
+142 silly audit report     }
+142 silly audit report   ],
+142 silly audit report   vite: [
+142 silly audit report     {
+142 silly audit report       id: 1107325,
+142 silly audit report       url: 'https://github.com/advisories/GHSA-g4jq-h2w9-997c',
+142 silly audit report       title: 'Vite middleware may serve files starting with the same name with the public directory',
+142 silly audit report       severity: 'low',
+142 silly audit report       vulnerable_versions: '>=7.0.0 <=7.0.6',
+142 silly audit report       cwe: [Array],
+142 silly audit report       cvss: [Object]
+142 silly audit report     },
+142 silly audit report     {
+142 silly audit report       id: 1107329,
+142 silly audit report       url: 'https://github.com/advisories/GHSA-jqfw-vq24-v9c3',
+142 silly audit report       title: "Vite's `server.fs` settings were not applied to HTML files",
+142 silly audit report       severity: 'low',
+142 silly audit report       vulnerable_versions: '>=7.0.0 <=7.0.6',
+142 silly audit report       cwe: [Array],
+142 silly audit report       cvss: [Object]
+142 silly audit report     }
+142 silly audit report   ]
+142 silly audit report }
+143 silly packumentCache corgi:https://registry.npmjs.org/axios cache-miss
+144 silly packumentCache corgi:https://registry.npmjs.org/vite cache-miss
+145 http fetch GET 200 https://registry.npmjs.org/vite 35ms (cache revalidated)
+146 silly packumentCache corgi:https://registry.npmjs.org/vite set size:2070821 disposed:false
+147 http fetch GET 200 https://registry.npmjs.org/axios 63ms (cache revalidated)
+148 silly packumentCache corgi:https://registry.npmjs.org/axios set size:253788 disposed:false
+149 silly packumentCache corgi:https://registry.npmjs.org/@tailwindcss%2fvite cache-miss
+150 silly packumentCache corgi:https://registry.npmjs.org/laravel-vite-plugin cache-miss
+151 http fetch GET 200 https://registry.npmjs.org/laravel-vite-plugin 44ms (cache revalidated)
+152 silly packumentCache corgi:https://registry.npmjs.org/laravel-vite-plugin set size:62066 disposed:false
+153 http fetch GET 200 https://registry.npmjs.org/@tailwindcss%2fvite 134ms (cache revalidated)
+154 silly packumentCache corgi:https://registry.npmjs.org/@tailwindcss%2fvite set size:539604 disposed:false
+155 silly ADD
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly ADD
+202 silly ADD
+203 silly ADD
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly ADD
+214 silly ADD
+215 silly ADD
+216 silly ADD
+217 verbose cwd /var/www/csar-platform
+218 verbose os Linux 5.15.0-153-generic
+219 verbose node v20.19.5
+220 verbose npm  v10.8.2
+221 verbose exit 0
+222 info ok

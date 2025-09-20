@@ -1,0 +1,12 @@
+● mysql.service - MySQL Community Server
+     Loaded: loaded (/lib/systemd/system/mysql.service; enabled; vendor preset: enabled)
+     Active: activating (auto-restart) (Result: exit-code) since Wed 2025-09-10 08:42:54 UTC; 6ms ago
+    Process: 69889 ExecStartPre=/usr/share/mysql/mysql-systemd-start pre (code=exited, status=0/SUCCESS)
+    Process: 69897 ExecStart=/usr/sbin/mysqld [0;1;31m(code=exited, status=1/FAILURE)[0m
+   Main PID: 69897 (code=exited, status=1/FAILURE)
+     Status: "Server shutdown complete"
+      Error: 22 (Invalid argument)
+        CPU: 576ms
+
+Sep 10 08:42:54 srv1000673 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mmysql.service: Failed with result 'exit-code'.[0m
+Sep 10 08:42:54 srv1000673 systemd[1]: [0;1;31m[0;1;39m[0;1;31mFailed to start MySQL Community Server.[0m

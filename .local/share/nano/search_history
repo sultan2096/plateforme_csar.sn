@@ -1,0 +1,44 @@
+Route::get('admin
+   Route::get('admin', [Admin\DashboardController::class, 'index'])->name('admin.dashboard');   Route::get('admin/dashboard', [Admin\DashboardController::class, 'index'])->name('admin
+   Route::get('admin', [Admin\DashboardController::class, 'index'])->name('admin.dashboard');   Route::get('admin/dashboard', [Admin\DashboardController::class, 'index'])->name('admin.dashboard');
+// DG RoutesRoute::prefix('dg')->name('dg.')->group(function () {    Route::get('/login', function () {        return view('auth.dg-login');    })->name('login');    Route::post('/login', [App\Http\Controllers\Auth\AuthenticatedSessionContro>    Route::post('/logout', [App\Http\Controllers\Auth\AuthenticatedSessionContr>        Route::get('/', [\App\Http\Controllers\DG\DashboardController::class, '>        // Requests Management        Route::get('requests', [\App\Http\Controllers\DG\RequestController::cla>        Route::get('requests/{id}', [\App\Http\Controllers\DG\RequestController>        Route::get('requests/export', [\App\Http\Controllers\DG\RequestControll>        Route::post('requests/{id}/approve', [\App\Http\Controllers\DG\RequestC>        Route::post('requests/{id}/reject', [\App\Http\Controllers\DG\RequestCo>        Route::post('requests/{id}/complete', [\App\Http\Controllers\DG\Request>
+dashboard
+Route::get('/', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+: Route::get('/dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+\App\Http\Controllers\.
+340
+weekl>
+weekl
+Route::post('price-alerts/{priceAlert}/send-public-alert', [\App\Http\Controllers\Admin\PriceAlertController::class, 'sendPublicAlert'])->name('price-alerts.send-public-alert');
+Route::patch('weekly-agenda/{weeklyAgenda}/update-status', [\App\Http\Controllers\Admin\WeeklyAgendaController::class, 'updateStatus'])->name('weekly-agenda.update-status');
+Route::get('technical-partners/export', [\App\Http\Controllers\Admin\TechnicalPartnerController::class, 'export'])->name('technical-partners.export');
+Route::post('technical-partners/{technicalPartner}/toggle-featured', [\App\Http\Controllers\Admin\TechnicalPartnerController::class, 'toggleFeatured'])->name('technical-partners.toggle-featured');
+Route::patch('technical-partners/{technicalPartner}/update-position', [\App\Http\Controllers\Admin\TechnicalPartnerController::class, 'updatePosition'])->name('technical-partners.update-position');
+Route::post('sim-reports/{simReport}/generate-alerts', [\App\Http\Controllers\Admin\SimReportController::class, 'generatePriceAlerts'])->name('sim-reports.generate-alerts');
+Route::post('sim-reports/{simReport}/unpublish', [\App\Http\Controllers\Admin\SimReportController::class, 'unpublish'])->name('sim-reports.unpublish');
+ technical-partn>
+Route::post('technical-partners/reorder', [\App\Http\Controllers\Admin\TechnicalPartnerController::class, 'reorderPartners'])->name('technical-partn>
+Route::post('technical-partners/reorder', [\App\Http\Controllers\Admin\TechnicalPartnerController::class, 'reorderPartners'])->name('technical-partners.reorder');
+339
+DashboardController
+Route::get('/', [\App\Http\Controllers\Agent\DashboardController::class, 'index'])->name('dashboard');
+Route::get('salary-slips/{salarySlip}/download', [\App\Http\Controllers\Agent\HRController::class, 'downloadSalarySlip'])->name('salary-slips.downlo>
+@media (max-width: 768px
+.logo
+@media (max-width: 768px)
+<header class="header"
+return view('public.home', $viewData);
+ return view('public.home-optimized', $viewData);
+@section('styles')
+ return view('public.home', $viewData);
+'route' => false,  // Changez de true à false
+admin.dashboard
+Route::get('/', ...)->name('dashboard');
+Route::get('/dashboard', [App\Http\Controllers\Admin\DashboardController::class, 'index'])->name('dashboard');
+// Gardez seulement UNE de ces deux lignes :Route::get('/drh', [\App\Http\Controllers\Admin\HRController::class, 'index'])->name('drh.dashboard');Route::get('/drh/dashboard', [\App\Http\Controllers\Admin\HRController::class, 'index'])->name('drh.dashboard');
+protected $middleware = [    // \App\Http\Middleware\TrustHosts::class,    \App\Http\Middleware\TrustProxies::class,    \Illuminate\Http\Middleware\HandleCors::class,    \App\Http\Middleware\PreventRequestsDuringMaintenance::class,    \Illuminate\Foundation\Http\Middleware\ValidatePostSize::class,    // \App\Http\Middleware\TrimStrings::class,  // <- Commenter cette ligne    \Illuminate\Foundation\Http\Middleware\ConvertEmptyStringsToNull::class,];
+fastcgi_pass unix:/var/run/php/php8.1-fpm.sock;
+<?phpnamespace App\Http\Controllers\Public;use App\Http\Controllers\Controller;use Illuminate\Http\Request;class HomeController extends Controller{    public function index()    {        return v
+
+
+

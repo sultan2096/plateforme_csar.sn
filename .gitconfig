@@ -1,0 +1,6 @@
+[safe]
+	directory = /var/www/csar
+	directory = /var/www/csar
+	directory = /var/www/csar
+	directory = /var/www/csar-platform
+	directory = /var/www/csar.sn/public
